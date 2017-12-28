@@ -27,3 +27,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   return array.slice()
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.pop()
+}
+
+function removeElementFromEndOfArray(array) {
+  return array.pop()
+}
+
+iceCreams.slice(0, iceCreams.length - 1)
